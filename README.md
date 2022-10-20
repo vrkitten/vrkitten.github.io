@@ -1,6 +1,22 @@
 # vrkitten.github.io
 
-<h1>placeholder</h1>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
 
-<p>welcome!</p>
-<p><strong>test<strong></p>
+	
+</style>
+	
+</head>
+
+<body>
+	
+	
+	<h1>@vrkitten</h1>
+
+	<button class="button button1"
+			onclick="location.href='www.'"
+			>Enter
+	</button>
+	
+	
+</body>
