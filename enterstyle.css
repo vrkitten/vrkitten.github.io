@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: rainyhearts;
+	src: url("webfonts/rainyhearts/rainyhearts.ttf")
+}
+
+
+@font-face {
+	font-family: rainyhearts;
+	src: url(/webfonts/rainyhearts/rainyhearts.ttf) format("tff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+
+
+
+div {	
+}
+
+
+main {	
+}
+
+
+body {
+    background-color: #BC9DB5;
+    text-shadow: 1px 2px 2px #FFFFFF;
+    font-family: rainyhearts;
+    text-align: center;
+}
+
+
+p {
+	color: #000000;
+	}
+
+
+h1   {
+    color: #444444;
+}
+
+
+h2 {
+}
+
+
+h3 {
+}
+
+
+.button {
+	font-family: rainyhearts;
+	border: none;
+	color: white;
+	padding: 0px 100px;
+	border-radius: 100px;
+	height: 150px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 100px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+
+.button1 {
+	background-color: #000000;
+	color: #EFC3E6;
+	border: none;
+}
+
+
+.button1:hover {
+	background-color: #EFC3E6;
+	color: #444444;
+}
+
+
+a {
+}
+
+
+a:visited {
+}
+
+
+a:hover {
+}
+
+
+img {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
