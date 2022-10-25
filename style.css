@@ -2,51 +2,45 @@
 /* CSS Document */
 
 :root {
-	background-image: url(images/root-background-placeholder.jpg)
-}
-
+	background-image: url(images/root-background-placeholder.jpg)}
 
 @font-face {
 	font-family: rainyhearts;
-	src: url("webfonts/rainyhearts/rainyhearts.ttf")
-}
+	src: url("webfonts/rainyhearts/rainyhearts.ttf")}
 
-@font-face {
-	font-family: rainyhearts;
-	src: url(/webfonts/rainyhearts/rainyhearts.ttf) format("tff");
-	font-style: normal;
-}
-
-
-div {
-	
-}
-
-#container {
-	width: 100%;
-	heaight: auto;
-	margin: 0px;
-}
-
-
-#header {
-	display: flex;
-	height: 30px;
-	background-color: #A08FBA;
-	border: 10px outset #A08FBA;
-}
-
-#navbar {
-	height: 30px;
-	width: 100%;
-}
-#navbarul {
-}
-
-#body {
-	font-family: rainyhearts;
-	background-color: #EFC3E6;
+/* website background */
+container {
+	max-width: 900px;
+	height: auto;
+	margin: 0px auto;
 	padding: 20px;
 }
+
+/* content box */
+body {
+	font-family: rainyhearts;
+	padding: 50px;
+	border: 10px #E66FB7;
+}
+
+
+.header {
+	padding: 0px;
+	height: 30px;
+	background-color: #A08FBA;
+	border: 3px solid #E66FB7;
+	width:100%;
+	text-align: left;	
+}
+
+
+.navbar {
+	height: 30px;
+	width: 100%;
+}
+.navbarul {
+}
+
+
 
 
