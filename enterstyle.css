@@ -18,8 +18,8 @@
 
 
 
-div {	
-}
+div {
+    cursor:default;}
 
 
 main {	
@@ -28,7 +28,6 @@ main {
 
 body {
     background-color: #BC9DB5;
-    text-shadow: 1px 2px 2px #FFFFFF;
     font-family: rainyhearts;
     text-align: center;
 }
@@ -97,8 +96,16 @@ a:hover {
 img {
 }
 
+#container {
+  max-width:900px; /* this is the width of your layout! */
+  /* if you change the above value, scroll to the bottom
+  and change the media query according to the comment! */
+  margin: 0 auto; /* this centers the entire page */
+}
 
-
+#flex {
+  display:flex;
+}
 
 
 
