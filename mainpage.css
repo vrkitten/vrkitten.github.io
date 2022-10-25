@@ -14,7 +14,7 @@
 body {
 	font-family:rainyhearts;
 	margin:0;
-	background-color: #F0A6CA;
+	background-color: #FFE2EE;
 	background-size:65px;
 	color:#A08FBA;
 	background-image:url("/images/root-background-placeholder.jpg");
@@ -58,7 +58,7 @@ EXCEPT for the navigation */
 
 /* navigation section!! */
 #navbar {
-	height:40px;
+	height:30px;
 	background-color:#EFC3E6; /* navbar color */
 	width:100%;
 }
@@ -124,14 +124,15 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 }
 
 footer {
-	background-color:#666777; /* background color for footer */
-	width:100%;
-	height:40px;
-	padding:10px;
-	text-align:center; /* this centers the footer text */
+    background-color: none; /* background color for footer */
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center; /* this centers the footer text */
+    font-weight: bolder;
 }
 h1, h2, h3 {
-	color:#ED64F5;
+	color:#E66FB7;
 }
 h1  {
 	font-size:25px;
