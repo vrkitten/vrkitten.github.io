@@ -24,23 +24,43 @@ body {
 }
 
 
-.header {
+div.header {
 	padding: 0px;
 	height: 30px;
 	background-color: #A08FBA;
 	border: 3px solid #E66FB7;
 	width:100%;
-	text-align: left;	
+	text-align: left;
 }
+
+
+div.logo {
+    content: url("images/cat1.png");
+    height: inherit;
+	display: inline;
+}
+
+h {
+    font-size: 17pt;
+    display: inline;
+}
+
 
 
 .navbar {
-	height: 30px;
-	width: 100%;
+    height: 30px;
+    width: 100%;
 }
-.navbarul {
+.navbar a {
+	float: inherit;}
+
+a {
+    color: #E66FB7;
+    text-decoration-color: #E66FB7;
+    text-decoration: none;
+	font-size: 17pt;
+    display: inline;
 }
-
-
-
-
+a ::first-letter {
+    text-decoration: underline;
+}
