@@ -20,47 +20,65 @@ container {
 
 /* GENERAL DISPLAY */
 body {
-	font-family: rainyhearts;
-	padding: 50px;
-	border: 10px #E66FB7;
+    font-family: rainyhearts;
+    padding: 50px;
+    border: 10px #E66FB7;
 }
 
 content {
 }
 
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
 /* TOP CONTAINER */
-div.header {
-	padding: 0px;
-	background-color: #A08FBA;
-	border: 3px solid #E66FB7;
-	width:100%;
-	text-align: left;
+header {
+	display: flex;
+    padding: 0px;
+    background-color: #A08FBA;
+    border: 3px solid #E66FB7;
+    width: 100%;
+    height: auto;
+    text-align: left;
 }
 
 /* HEADER IMAGE TOP LEFT */
 div.logo {
     content: url("images/cat1.png");
-    height: inherit;
 	display: inline;
+	float: left;
+	padding-left: 0px;
+	height: auto;
+	width: 5%;
 }
 /* PAGE NAME */
 h {
     font-size: 17pt;
-    display: inline;
+    margin: 0px;
+    display: inline-flex;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 /* NAV */
-div.navbar {
-    height: 30px;
-	background-color: #FFE2EE;
+nav {
+    position: relative;
+	bottom: 0;
+    height: auto;
+    background-color: #FFE2EE;
     width: 100%;
-	vertical-align: bottom;
 }
 /* NAV LIST */
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+	vertical-align: bottom;
 }
 /* NAV LIST ITEMS */
 li {

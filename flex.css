@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+:root {
+	background-image: url(images/root-background-placeholder.jpg)
+	}
+
+@font-face {
+	font-family: rainyhearts;
+	src: url("webfonts/rainyhearts/rainyhearts.ttf")
+	}
+
+body {
+    font-family: rainyhearts;
+    padding: 50px;
+    border: 10px #E66FB7;
+	}
+
+.container {
+	max-width: 900px;
+	height: auto;
+	margin: 0px auto;
+	padding: 20px;
+	}
+
+div.logo {
+    content: url("images/cat1.png");
+	display: flex;
+	width: 5%;
+	}
+
+header {
+	display: flex;
+	justify-content: flex-start;
+	background-color: #E66FB7;
+	padding: 3px;
+	}
+
+h {
+	
+	}
+
+nav {
+	background-color: #EFC3E6;
+	}
+
+ul {
+	display: inline-flex;
+	list-style-type: none;
+	}
+
+li {
+	
+	}
+
+a {
+	
+	}
