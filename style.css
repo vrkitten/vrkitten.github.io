@@ -57,7 +57,7 @@ div.logo {
 }
 /* PAGE NAME */
 h {
-    font-size: 17pt;
+    font-size: 16pt;
     margin: 0px;
     display: inline-flex;
     font-weight: bold;
@@ -91,7 +91,7 @@ a {
     color: #E66FB7;
     text-decoration-color: #E66FB7;
     text-decoration: none;
-	font-size: 17pt;
+	font-size: 16pt;
 	padding-right: 2%;
 }
 /* NAV LINKS FIRST LETTER */

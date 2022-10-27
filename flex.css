@@ -9,6 +9,15 @@
 	src: url("webfonts/rainyhearts/rainyhearts.ttf")
 	}
 
+* {
+	box-sizing: border-box;
+	}
+
+header, nav {
+	border: 0;
+	width: 100%;
+	}
+
 body {
     font-family: rainyhearts;
     padding: 50px;
@@ -16,42 +25,74 @@ body {
 	}
 
 .container {
-	max-width: 900px;
-	height: auto;
-	margin: 0px auto;
-	padding: 20px;
+    display: grid;
+    max-width: 900px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+	border: 3px solid #E66FB7;
 	}
 
-div.logo {
+div.header-image {
     content: url("images/cat1.png");
-	display: flex;
-	width: 5%;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: auto;
 	}
+
+div.header-img-minimize {
+	content: url()
+}
 
 header {
-	display: flex;
-	justify-content: flex-start;
-	background-color: #E66FB7;
-	padding: 3px;
+    display: inline-flex;
+    max-width: auto;
+    background-color: #A08FBA;
+	height: 30px;
 	}
 
 h {
-	
+	display: table-cell;
+    position: relative;
+    font-size: 16pt;
+    margin-left: 3px;
+    font-weight: bold;
+    color: #FFFFFF;
+	padding-top: 0%;
 	}
 
 nav {
+	display: inline-flex;
+	max-width: auto;
 	background-color: #EFC3E6;
+	padding: 0px;
 	}
 
 ul {
 	display: inline-flex;
 	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
 	}
 
 li {
-	
+	padding-right: 20pt;
 	}
 
 a {
+	color: #E66FB7;
+    text-decoration-color: #E66FB7;
+    text-decoration: none;
+	font-size: 16pt;
+	}
+
+aside {
+	width:150px;
+	}
+.flex {
+	display: flex;
 	
 	}
