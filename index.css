@@ -16,39 +16,24 @@
 }
 
 
-
-
 div {
     cursor:default;}
-
-
-main {	
-}
 
 
 body {
     background-color: #BC9DB5;
     font-family: rainyhearts;
-    text-align: center;
-}
+	padding: 50px;
+    border: 10px #E66FB7;}
 
 
+/*index page, enter button*/
 p {
-	color: #000000;
-	}
+	color: #000000;}
 
 
 h1   {
-    color: #444444;
-}
-
-
-h2 {
-}
-
-
-h3 {
-}
+    color: #444444;}
 
 
 .button {
@@ -64,51 +49,118 @@ h3 {
 	font-size: 100px;
 	margin: 4px 2px;
 	transition-duration: 0.4s;
-	cursor: pointer;
-}
+	cursor: pointer;}
 
 
 .button1 {
 	background-color: #000000;
 	color: #EFC3E6;
-	border: none;
-}
+	border: none;}
 
 
 .button1:hover {
 	background-color: #EFC3E6;
-	color: #444444;
-}
+	color: #444444;}
 
-
-a {
-}
-
-
-a:visited {
-}
-
-
-a:hover {
-}
-
-
-img {
-}
 
 #container {
   max-width:900px; /* this is the width of your layout! */
   /* if you change the above value, scroll to the bottom
   and change the media query according to the comment! */
-  margin: 0 auto; /* this centers the entire page */
-}
+  margin: 0 auto; /* this centers the entire page */}
+
 
 #flex {
-  display:flex;
+  display:flex;}
+
+/*blog page*/
+
+* {
+	box-sizing: border-box;
+	}
+
+header, nav {
+	border: 0;
+	width: 100%;
+	}
+
+
+.container {
+    display: grid;
+    max-width: 900px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+	border: 3px solid #E66FB7;
+	}
+
+div.header-image {
+    content: url("images/cat1.png");
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: auto;
+	}
+
+div.header-img-minimize {
+	content: url()
 }
 
+header {
+    display: inline-flex;
+    max-width: auto;
+    background-color: #A08FBA;
+	height: 30px;
+	}
+
+h {
+	display: table-cell;
+    position: relative;
+    font-size: 16pt;
+    margin-left: 3px;
+    font-weight: bold;
+    color: #FFFFFF;
+	padding-top: 0%;
+	}
+
+nav {
+	display: inline-flex;
+	max-width: auto;
+	background-color: #EFC3E6;
+	padding: 0px;
+	}
+
+ul {
+	display: inline-flex;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+	}
+
+li {
+	padding-right: 20pt;
+	}
+
+a {
+	color: #E66FB7;
+    text-decoration-color: #E66FB7;
+    text-decoration: none;
+	font-size: 16pt;
+	}
+
+aside {
+	width:150px;
+	}
+.flex {
+	display: flex;
+	
+	}
 
 
+
+	/*shop page*/
 
 
 
